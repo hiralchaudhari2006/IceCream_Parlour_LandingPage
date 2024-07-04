@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <style>
+        .a{
+            width: 100%;
+            height: 90px;
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+            background-color: white;
+        }
+        #a{
+            float: right;
+            height: 70px;
+            width: 70px;
+            color: black;
+            margin-right: 50px;
+        }
+        .b{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            margin-top: 80px;
+        }
+        .b div{
+            flex-basis: 33%;
+        }
+        #b{
+            width: 100%;
+            height: 100%;
+        }
+        .b2{
+            text-align: center;
+            margin-top: 130px;
+        }
+        
+        .c{
+            width: 100%;
+            margin-top: 20px;
+            text-align: center;
+            background-color: lightgray;
+            display: flex;
+            flex-direction: row;
+        }
+        .c div{
+            flex-basis: 33%;
+        }
+        #c{
+            width: 100px;
+            height: 100px;
+            font-size: 100px;
+        }
+        .d{
+            width: 100%;
+            text-align: center;
+
+            display: flex;
+            flex-direction: row;
+        }
+        .d div{
+            flex-basis: 50%;
+        }
+        .e{
+            width: 100%;
+            
+            text-align: center;
+            background-image: url(cb1.jpg);
+           
+        }
+        .e1{
+            width: 80%;
+            background-color: white;
+            margin-top: 50px;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 50px;
+            
+        }
+        .e2{
+            display: flex;
+            flex-direction: row;
+        }
+        .e2 div{
+            flex-basis: 50%;
+        }
+        .e3{
+            margin-left: 80px;
+            margin-right: 50px;
+            text-align: justify;
+        }
+        .e4{
+            margin-left: 80px;
+            margin-right: 50px;
+            text-align: justify;
+        }
+        .e5{
+            display: flex;
+            flex-direction: row;
+        }
+        .e5 div{
+            flex-basis: 25%;
+        }
+        #e{
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin-left: 80px;
+        }
+        .f{
+            width: 100%;
+        }
+        .f1{
+            width: 80%;
+            margin-left: 15%;
+            display: flex;
+            flex-direction: row;
+        }
+        .f1 div{
+            flex-basis: 50%;
+        }
+        .g{
+            width: 100%;
+           
+            display: flex;
+            flex-direction: row;
+        }
+        .g div{
+            flex-basis: 50%;
+        }
+        .g2{
+            margin-right: 100px;
+        }
+        .h{
+            width: 100%;
+            text-align: center;
+        }
+        .i{
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .i div{
+            flex-basis: 50%;
+        }
+        
+        
+        @media(max-width: 600px){
+            .b{
+                flex-direction: column;
+            }
+            .b1,.b3{
+                display: none;
+            }
+            .c{
+                flex-direction: column;
+            }
+            .d{
+                flex-direction: column;
+            }
+            .e2{
+                flex-direction: column;
+            }
+            .e5{
+                flex-direction: column;
+            }
+            .f1{
+                flex-direction: column;
+            }
+            .g{
+                flex-direction: column;
+            }
+            .i{
+                flex-direction: column;
+            }
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <img src="c1.jpeg" alt="">
+        <ion-icon id="a" name="menu"></ion-icon>
+    </div><hr><br><br>
+    <div class="b">
+        <div class="b1">
+            <img id="b" src="c2.jpg" alt="">
+        </div>
+        <div class="b2">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>    
+            <h1>Delicious sweets<br>for everyone</h1>
+            <h4>Food, in the end, in our own tradition, is something holy.<br>
+            It's not about nutrients and calories. It's about sharing.</h4> 
+            <button>VIEW THE MENU</button>                        
+        </div>
+        <div class="b3">
+            <img id="b" src="c3.jpg" alt="">
+        </div>
+    </div><br><hr><br>
+
+    <div class="c">
+        <div class="c1">
+            <ion-icon id="c" name="wifi-outline"></ion-icon>
+            <h2>Free WiFi</h2>
+            <h4>Interdum iusto pulvinar consequunture.</h4>
+        </div><hr>
+        <div class="c2">
+            <ion-icon id="c" name="ice-cream-outline"></ion-icon>
+            <h2>Large selection</h2>
+            <h4>Interdum iusto pulvinar consequunture.</h4>
+        </div><hr>
+        <div class="c3">
+            <i id="c" class="bi bi-cake"></i>
+            <h2>Birthday Parties</h2>
+            <h4>Interdum iusto pulvinar consequunture.</h4>
+        </div><hr>
+        <div class="c4">
+            <i id="c" class="bi bi-file-earmark-fill"></i>
+            <h2>Bio milk</h2>
+            <h4>Interdum iusto pulvinar consequunture.</h4>
+        </div><hr>
+        <div class="c5">
+            <ion-icon id="c" name="leaf-outline"></ion-icon>
+            <h2>Bio products only</h2>            
+            <h4>Interdum iusto pulvinar consequunture.</h4>
+        </div><hr>
+        <div class="c6">
+            <i id="c" class="bi bi-cake2"></i>
+            <h2>Special cupcakes</h2>
+            <h4>Interdum iusto pulvinar consequunture.</h4>
+        </div>
+    </div><br><br><hr><br><br>
+    <div class="d">
+        <div class="d1">
+            <br><br><br>
+            <p>Our philosophy applied to our products</p><br>
+            <h1>ABOUT US</h1><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusm temporincididunt utlabore et <br> dolore aliqua. Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip<br> exa comodo consequato aute irure dolor in reprehenderit in voluptate velit cilldolore fugiat <br> nullapariature malesione mertolo caridllio los pollos merenda.</p>
+        </div>
+        <div class="d2">
+            <img style="border-radius: 50%;width: 80%;height: 80%;" src="c4.jpg"  alt="">
+        </div>
+    </div><hr><br><br>
+    
+    <div class="e">
+        <br><br>
+        <div class="e1">
+        <br><br><br>
+        <p>Take a look to the news food promotions</p>
+        <h1>WEEK'S PROMOTIONS</h1><br>
+        <div class="e2">
+
+                <div class="e3">
+                    <h4>Slow roasted white</h4>
+                    <p>Duis aute irure dolor into</p><hr>
+                    <h4>Grass beef fillet</h4>
+                    <p>Lorem ipsum dolor sito</p><hr>
+                    <h4>Deboned king quail</h4>
+                    <p>Sunt in culpa qui deserunt</p>
+                </div>
+                <div class="e4">
+                    <h4>Steamed king crab</h4>
+                    <p>Duis aute irure dolor ingolo</p><hr>
+                    <h4>Roast partridge</h4>
+                    <p>Lorem ipsum dolor site</p><hr>
+                    <h4>Salad of shaved fenne</h4>
+                    <p>Sunt in culpa qui officia</p>
+                    
+                </div>
+            </div>
+            <div class="e5">
+                <img id="e" src="c5.jpg" alt="">
+                <img id="e" src="c6.jpg" alt="">
+                <img id="e" src="c7.jpg" alt="">
+                <img id="e" src="c8.jpg" alt=""><br><br>
+            </div>
+        </div>
+    </div><br><br><br><br>
+    <div class="f">
+       
+        <p style="margin-left: 200px;">Hand made ice creams</p>
+        <h1 style="margin-left: 200px;">ICE CREAMS</h1>
+        <div class="f1">
+        <div class="f2">
+            <h4>Steamed king crab</h4>
+            <p>Duis aute irure dolo irure dolor in reprehenderit in<br>
+                voluptate velito esse cillume.</p><br><hr><br>
+            <h4>Roast partridge</h4>
+            <p>Duis aute irure dolo irure dolor in reprehenderit in<br>
+                voluptate velito esse cillume.</p><br><hr><br>
+            <h4>Salad of shaved fenne</h4>       
+            <p>Duis aute irure dolo irure dolor in reprehenderit in<br>
+                voluptate velito esse cillume.</p><br><hr><br>
+            <h4>Slow roasted white</h4>
+            <p>Duis aute irure dolo irure dolor in reprehenderit in<br>
+                voluptate velito esse cillume.</p>
+
+        </div>
+        <div class="f3">
+            <img style="height: 100%;width: 100%;" src="c9.jpg" alt="">
+        </div>
+    </div>
+    </div><br><br><br><br>
+    <div class="g">
+        <div class="g1">
+            <img style="width: 100%;height: 100%" src="c10.jpg" alt="">
+        </div>
+        <div class="g2">
+            <p style="text-align: center;">Hand made desserts</p>
+            <h1 style="text-align: center;">DESSERTS</h1><br>
+            <h4>Steamed king crab</h4>
+            <p>Duis aute irure dolo irure dolor in reprehenderit in<br>
+                voluptate velito esse cillume.</p><br><hr><br>
+            <h4>Roast partridge</h4>
+            <p>Duis aute irure dolo irure dolor in reprehenderit in<br>
+                voluptate velito esse cillume.</p><br><hr><br>
+            <h4>Salad of shaved fenne</h4>       
+            <p>Duis aute irure dolo irure dolor in reprehenderit in<br>
+                voluptate velito esse cillume.</p><br><hr><br>
+            <h4>Slow roasted white</h4>
+            <p>Duis aute irure dolo irure dolor in reprehenderit in<br>
+                voluptate velito esse cillume.</p>
+
+        </div>
+    </div><br><br><br><br><br>
+    <div class="h">
+        <br><br><p>Our list is constantly growing</p>
+        <h1>WHAT WE OFFER</h1><br><br>
+        <p>Lorem ipsum dolor amet consectetur adipiscing elitsed do eiusm aliqua.
+        <br>Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exa comodo consequato aute irure dolor in<br> reprehenderit in voluptate velit cilldolore fugiat nullapariature malesione mertolo caridllio los pollos merenda dello studente <br> latino imperiale.</p>
+        <br><img src="sign-3.png" alt="">
+    </div><br><br><br>
+    <div class="i">
+        <img src="l1.png" alt=""><hr>
+        <img src="l2.png" alt=""><hr>
+        <img src="l3.png" alt=""><hr>
+        <img src="l4.png" alt=""><hr>
+        <img src="l5.png" alt=""><hr>
+        <img src="l6.png" alt="">
+    </div><br><br><br><br><br>
+    
+</body>
+</html>
